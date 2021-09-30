@@ -1,0 +1,219 @@
+.zone-pg{
+          width: 100%;
+          height: max-content;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+         margin-left: 25px;
+          background-color: rgba(81, 255, 0, 0);
+      color:white
+  }
+.pg-zone{
+    width: 400px;
+    height: max-content;
+    min-height: 350px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.452);
+  background-color: rgb(45, 46, 56);
+
+}
+.set-location{
+    margin-top: 5px;
+    font-size:15px;
+    font-weight: bold;
+}
+.load-t{
+  width: 100%;
+  height: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: rgba(194, 148, 148, 0);
+}
+.load-c{
+  width: 98%;
+  height: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+background-color: #07ffde82;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .load-c {
+    animation: load-c-spin infinite 800ms linear;
+  }
+}
+
+@keyframes load-c-spin {
+  0% {
+    width:0%;
+  }
+  50%{
+    width:50%;
+  }
+  100% {
+    width:100%;
+  }
+}
+
+
+.province-w{
+  width: 200px;
+  height: 40px;
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+background-color: rgba(0, 255, 255, 0);
+}
+.next-or-pev{
+  width: 200px;
+  height: 20px;
+  display: flex;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: 11px;
+  background-color: rgba(137, 43, 226, 0);
+}
+.next-or-pev1{
+  width: 50%;
+  height: 20px;
+  display: flex;
+  border-bottom-left-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(67, 67, 67);
+  background-color: rgba(156, 70, 70, 0);
+}
+.next-or-pev2{
+  width: 50%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(63, 63, 63);
+  cursor: pointer;
+  border-bottom-right-radius: 4px;
+  background-color: rgba(156, 70, 70, 0);
+ 
+}
+
+.scrold{
+  width: 200px;
+  height: 182px;
+  display: flex;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  flex-direction: column;
+  
+  
+ background-color: rgba(210, 105, 30, 0);
+}
+
+.scrold-w{
+  width: 200px;
+  height: 182px;
+  display: flex;
+  overflow:hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ background-color: rgba(36, 210, 30, 0);
+}
+
+.label-w{
+  width: 60px;
+  height: 20px;
+display: flex;
+font-size:11px;
+justify-content: center;
+align-items: center;
+background-color: #07ffde80;
+border-top-left-radius: 9px;
+border-top-right-radius: 9px;
+
+}
+.label-inp{
+  height: 20px;
+  background-color: rgba(0, 255, 255, 0);
+  border: 2px solid #07ffde80;
+  outline: unset;
+  color: white;
+  font-size: 9px;
+}
+.prv-scroll{
+  width: 200px;
+  height: 200px;
+display: flex;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+background-color: white;
+box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.452);
+  flex-direction: column;
+}
+
+.prv-scroll-2{
+  width: 200px;
+  height: 200px;
+ 
+display: flex;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+background-color: white;
+box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.452);
+  flex-direction: column;
+}
+
+.clb-location_1{
+  width: 100%;
+  height: 15px;
+display: flex;
+color:black;
+align-items: center;
+font-size: 9px;
+cursor: pointer;
+background-color: rgba(210, 105, 30, 0);
+}
+
+.clb-location{
+  width: 100%;
+  height: 15px;
+display: flex;
+color:black;
+align-items: center;
+font-size: 9px;
+cursor: pointer;
+margin-top: -150px;
+background-color: rgba(210, 105, 30, 0);
+}
+
+.clb-location-2{
+  width:180px;
+  height: 15px;
+display: flex;
+color:black;
+align-items: center;
+font-size: 9px;
+cursor: pointer;
+background-color: rgba(210, 105, 30, 0);
+}
+.clb-location-2:hover{
+  background-color:#07ffde80;
+  
+}
+
+.clb-location:hover{
+  background-color:#07ffde80;
+  
+}
+.clb-image{
+  width: 13px;
+  height: 13px;
+  filter: invert(100%);
+}

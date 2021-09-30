@@ -1,0 +1,69 @@
+#svg circle {
+    transition: stroke-dashoffset 1s linear;
+    stroke: #666;
+    stroke-width: 3px;
+    
+  }
+
+  #svg #bar {
+  stroke:#07ffde80;
+  }
+
+  #cont {
+    display: block;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1em black;
+    border-radius: 100%;
+    background-color: rgba(0, 128, 128, 0);
+   transform: rotate(-90deg);
+  }
+
+  .percent{
+    height: 40px;
+    width: 40px;
+    color: white;
+    position: relative;
+    margin-top: -40px;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 99, 71, 0);
+  }
+  .blure{
+    height: 40px;
+    width: 40px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 255, 0, 0);
+
+  }
+
+  /*
+left: 25%;
+    top: 25%;
+ margin-top: -80px;
+    margin-left: -80px;
+      line-height: 160px;
+*/
+  #cont:after {
+    position: absolute;
+    display: block;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 1em black;
+    border-radius: 100%;
+    text-shadow: 0 0 0.5em black;
+  }
+  
+  

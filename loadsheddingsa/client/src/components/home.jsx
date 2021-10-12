@@ -309,7 +309,7 @@ class Home extends Component {
             }
            
                 
-        }).catch()
+        }).catch(e=>console.log(e))
 
 
         await fetch(`https://loadshedding-api.sintrex.com/getlocations/?town=${anyway?data.town:"Mfuleni (1)"}`, {
@@ -329,7 +329,7 @@ class Home extends Component {
            
         this.props.GeoData([{ ...this.state.collect, ...city }])
     }
-}).catch()
+}).catch(e=>console.log(e))
 
 
 
@@ -357,7 +357,7 @@ await fetch(`https://loadshedding-api.sintrex.com/getSchedules`, {
 
     this.setState({ province_schedules:[prov1,prov2,prov3,prov4,prov5,prov6,prov7,prov8,prov9] })
         
-}).catch()
+}).catch(e=>console.log(e))
 
 
     }

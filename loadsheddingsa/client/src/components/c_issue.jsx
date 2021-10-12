@@ -52,7 +52,7 @@ class C_issue extends Component {
 
               const { path } = data;
                 this.setState({ files: path, })
-          })
+          }).catch(e=>console.log(e))
         } else {
           this.setState({ type: true })
             setTimeout(() => {
@@ -112,7 +112,7 @@ class C_issue extends Component {
 
                       const { path } = data;
                         this.setState({ files: path, })
-                  })
+                  }).catch(e=>console.log(e))
                       e.dataTransfer.clearData()
                       this.dragCounter = 0
                   } else {

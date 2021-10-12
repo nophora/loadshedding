@@ -15,7 +15,7 @@ const issue = (payload) => (dispatch) => {
         
             })
                 
-        }).catch()
+        }).catch(e=>console.log(e))
    
     
 

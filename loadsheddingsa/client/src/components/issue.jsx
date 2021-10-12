@@ -174,7 +174,7 @@ class Issue extends Component {
 
             const { path } = data;
               this.setState({ files: path, })
-        })
+        }).catch(e=>console.log(e))
       } else {
         this.setState({ type: true })
           setTimeout(() => {
